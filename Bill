@@ -1,0 +1,12 @@
+public class Bill extends TrainerCard {
+        public Bill() {
+            super("Bill");
+        }
+
+        @Override
+        public void playEffect(Player player, Game game) {
+            System.out.println(player.getName() + " played Bill!");
+            // Draw 2 cards
+            player.drawCards(2);
+        }
+    }
