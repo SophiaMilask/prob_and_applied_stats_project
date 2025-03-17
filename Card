@@ -9,5 +9,5 @@ public abstract class Card {
         return name;
     }
 
-    public abstract void playEffect(Player player, Game game);
+    
 }
