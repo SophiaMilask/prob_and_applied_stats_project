@@ -1,0 +1,13 @@
+public class Alex extends TrainerCard {
+        public Alex() {
+            super("Alex");
+        }
+
+        @Override
+        public void playEffect(Player player, Game game) {
+            System.out.println(player.getName() + " played Alex!");
+            // Discard a card and draw 2 more
+            player.discardCard();
+            player.drawCards(2);
+        }
+    }
