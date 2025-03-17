@@ -1,0 +1,12 @@
+public class EnergyCard extends Card {
+    private String type;
+
+    public EnergyCard(String type) {
+        super(type + " Energy");
+        this.type = type;
+    }
+
+    public String getType() {
+        return type;
+    }
+}
